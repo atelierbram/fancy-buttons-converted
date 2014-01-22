@@ -1,0 +1,671 @@
+/* incase an inverted custom gradient isn't specified */
+/* line 226, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-reset-base-class, .fancy-button-base, .button, button {
+  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
+  background: url('../img/../../assets/img/button_bg.png?1373872206') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+}
+/* line 210, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-reset-base-class::-moz-focus-inner, .fancy-button-base::-moz-focus-inner, .button::-moz-focus-inner, button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 214, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-reset-base-class:focus, .fancy-button-base:focus, .button:focus, button:focus {
+  outline: none;
+}
+
+/* line 4, ../sass/buttons.scss */
+body {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* line 9, ../sass/buttons.scss */
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+  letter-spacing: -1px;
+}
+
+/* line 15, ../sass/buttons.scss */
+h1 {
+  font-size: 50px;
+}
+
+/* line 19, ../sass/buttons.scss */
+h2 {
+  font-size: 30px;
+}
+
+/* line 23, ../sass/buttons.scss */
+div {
+  margin-top: 15px;
+}
+
+/* line 40, ../sass/buttons.scss */
+.fancy-button-base, .button, button {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: #444444;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #989898), color-stop(10%, #6a6a6a), color-stop(50%, #3c3c3c), color-stop(50%, #353535), color-stop(100%, #4e4e4e));
+  background-image: -webkit-linear-gradient(#989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  background-image: -moz-linear-gradient(#989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  background-image: -o-linear-gradient(#989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  background-image: linear-gradient(#989898, #6a6a6a 10%, #3c3c3c 50%, #353535 50%, #4e4e4e);
+  border-color: #1e1e1e;
+  text-shadow: #040404 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.26667) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.26667) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.26667) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  margin: 0 2px;
+  vertical-align: middle;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-base, .button, button, .fancy-button-base:visited, .button:visited, button:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-base:hover, .button:hover, button:hover, .fancy-button-base:focus, .button:focus, button:focus {
+  background-color: #3c3c3c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #919191), color-stop(10%, #636363), color-stop(50%, #353535), color-stop(50%, #2d2d2d), color-stop(100%, #474747));
+  background-image: -webkit-linear-gradient(#919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  background-image: -moz-linear-gradient(#919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  background-image: -o-linear-gradient(#919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  background-image: linear-gradient(#919191, #636363 10%, #353535 50%, #2d2d2d 50%, #474747);
+  border-color: #161616;
+  text-shadow: black 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-base:hover, .button:hover, button:hover, .fancy-button-base:hover:visited, .button:hover:visited, button:hover:visited, .fancy-button-base:focus, .button:focus, button:focus, .fancy-button-base:focus:visited, .button:focus:visited, button:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-base:active, .button:active, button:active {
+  background-color: #353535;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #353535), color-stop(30%, #3a3a3a), color-stop(50%, #303030), color-stop(50%, #282828), color-stop(100%, #494949));
+  background-image: -webkit-linear-gradient(#353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  background-image: -moz-linear-gradient(#353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  background-image: -o-linear-gradient(#353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  background-image: linear-gradient(#353535, #3a3a3a 30%, #303030 50%, #282828 50%, #494949);
+  border-color: #0e0e0e;
+  text-shadow: black 0px -1px -1px;
+  -webkit-box-shadow: #1e1e1e 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #1e1e1e 0 0.08em 0.2em 1px inset;
+  box-shadow: #1e1e1e 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-base:active, .button:active, button:active, .fancy-button-base:active:visited, .button:active:visited, button:active:visited {
+  color: white;
+}
+
+/* line 48, ../sass/buttons.scss */
+.button[disabled], button[disabled] {
+  background-color: gray;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d4d4d4), color-stop(10%, #a6a6a6), color-stop(50%, #787878), color-stop(50%, #717171), color-stop(100%, #8a8a8a));
+  background-image: -webkit-linear-gradient(#d4d4d4, #a6a6a6 10%, #787878 50%, #717171 50%, #8a8a8a);
+  background-image: -moz-linear-gradient(#d4d4d4, #a6a6a6 10%, #787878 50%, #717171 50%, #8a8a8a);
+  background-image: -o-linear-gradient(#d4d4d4, #a6a6a6 10%, #787878 50%, #717171 50%, #8a8a8a);
+  background-image: linear-gradient(#d4d4d4, #a6a6a6 10%, #787878 50%, #717171 50%, #8a8a8a);
+  border-color: #5a5a5a;
+  text-shadow: #404040 0px 1px 1px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  cursor: default !important;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.button[disabled], .button[disabled]:visited, button[disabled], button[disabled]:visited {
+  color: white;
+}
+
+/* line 53, ../sass/buttons.scss */
+.light {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #cecece));
+  background-image: -webkit-linear-gradient(#ffffff, #cecece);
+  background-image: -moz-linear-gradient(#ffffff, #cecece);
+  background-image: -o-linear-gradient(#ffffff, #cecece);
+  background-image: linear-gradient(#ffffff, #cecece);
+  border-color: #b7b7b7;
+  text-shadow: white 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.86667) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.86667) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.86667) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 152, ../sass/partials/modules/_fancy-buttons.scss */
+.light, .light:visited {
+  color: #222222;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.light:hover, .light:focus {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfcfc), color-stop(100%, #c6c6c6));
+  background-image: -webkit-linear-gradient(#fcfcfc, #c6c6c6);
+  background-image: -moz-linear-gradient(#fcfcfc, #c6c6c6);
+  background-image: -o-linear-gradient(#fcfcfc, #c6c6c6);
+  background-image: linear-gradient(#fcfcfc, #c6c6c6);
+  border-color: #afafaf;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 152, ../sass/partials/modules/_fancy-buttons.scss */
+.light:hover, .light:hover:visited, .light:focus, .light:focus:visited {
+  color: #222222;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.light:active {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cbcbcb), color-stop(40%, #d3d3d3), color-stop(85%, #d3d3d3), color-stop(100%, #e5e5e5));
+  background-image: -webkit-linear-gradient(#cbcbcb, #d3d3d3 40%, #d3d3d3 85%, #e5e5e5);
+  background-image: -moz-linear-gradient(#cbcbcb, #d3d3d3 40%, #d3d3d3 85%, #e5e5e5);
+  background-image: -o-linear-gradient(#cbcbcb, #d3d3d3 40%, #d3d3d3 85%, #e5e5e5);
+  background-image: linear-gradient(#cbcbcb, #d3d3d3 40%, #d3d3d3 85%, #e5e5e5);
+  border-color: #a7a7a7;
+  text-shadow: white 0px -1px -1px;
+  -webkit-box-shadow: #b7b7b7 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #b7b7b7 0 0.08em 0.2em 1px inset;
+  box-shadow: #b7b7b7 0 0.08em 0.2em 1px inset;
+}
+/* line 152, ../sass/partials/modules/_fancy-buttons.scss */
+.light:active, .light:active:visited {
+  color: #222222;
+}
+
+/* line 57, ../sass/buttons.scss */
+.matte-blue {
+  background-color: #0058b7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80aee0), color-stop(10%, #367fce), color-stop(50%, #215287), color-stop(50%, #1e4b7b), color-stop(100%, #2864a4));
+  background-image: -webkit-linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  background-image: -moz-linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  background-image: -o-linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  background-image: linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  border-color: #153456;
+  text-shadow: #001b38 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.matte-blue, .matte-blue:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.matte-blue:hover, .matte-blue:focus {
+  background-color: #0051a8;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #73a6dd), color-stop(10%, #3078c4), color-stop(50%, #1e4b7b), color-stop(50%, #1b436e), color-stop(100%, #255c97));
+  background-image: -webkit-linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  background-image: -moz-linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  background-image: -o-linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  background-image: linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  border-color: #122d49;
+  text-shadow: #001428 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.matte-blue:hover, .matte-blue:hover:visited, .matte-blue:focus, .matte-blue:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.matte-blue:active {
+  background-color: #004a99;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1e4b7b), color-stop(30%, #205083), color-stop(50%, #1c4672), color-stop(50%, #193e66), color-stop(100%, #265f9b));
+  background-image: -webkit-linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  background-image: -moz-linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  background-image: -o-linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  background-image: linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  border-color: #0f253d;
+  text-shadow: #000c19 0px -1px -1px;
+  -webkit-box-shadow: #153456 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #153456 0 0.08em 0.2em 1px inset;
+  box-shadow: #153456 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.matte-blue:active, .matte-blue:active:visited {
+  color: white;
+}
+
+/* line 61, ../sass/buttons.scss */
+.green {
+  background-color: #3ab700;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9ee080), color-stop(10%, #66ce36), color-stop(50%, #418721), color-stop(50%, #3b7b1e), color-stop(100%, #4fa428));
+  background-image: -webkit-linear-gradient(#9ee080, #66ce36 10%, #418721 50%, #3b7b1e 50%, #4fa428);
+  background-image: -moz-linear-gradient(#9ee080, #66ce36 10%, #418721 50%, #3b7b1e 50%, #4fa428);
+  background-image: -o-linear-gradient(#9ee080, #66ce36 10%, #418721 50%, #3b7b1e 50%, #4fa428);
+  background-image: linear-gradient(#9ee080, #66ce36 10%, #418721 50%, #3b7b1e 50%, #4fa428);
+  border-color: #295615;
+  text-shadow: #123800 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.green, .green:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.green:hover, .green:focus {
+  background-color: #35a800;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #95dd73), color-stop(10%, #5fc430), color-stop(50%, #3b7b1e), color-stop(50%, #356e1b), color-stop(100%, #499725));
+  background-image: -webkit-linear-gradient(#95dd73, #5fc430 10%, #3b7b1e 50%, #356e1b 50%, #499725);
+  background-image: -moz-linear-gradient(#95dd73, #5fc430 10%, #3b7b1e 50%, #356e1b 50%, #499725);
+  background-image: -o-linear-gradient(#95dd73, #5fc430 10%, #3b7b1e 50%, #356e1b 50%, #499725);
+  background-image: linear-gradient(#95dd73, #5fc430 10%, #3b7b1e 50%, #356e1b 50%, #499725);
+  border-color: #234912;
+  text-shadow: #0d2800 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.green:hover, .green:hover:visited, .green:focus, .green:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.green:active {
+  background-color: #309900;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3b7b1e), color-stop(30%, #3f8320), color-stop(50%, #37721c), color-stop(50%, #316619), color-stop(100%, #4b9b26));
+  background-image: -webkit-linear-gradient(#3b7b1e, #3f8320 30%, #37721c 50%, #316619 50%, #4b9b26);
+  background-image: -moz-linear-gradient(#3b7b1e, #3f8320 30%, #37721c 50%, #316619 50%, #4b9b26);
+  background-image: -o-linear-gradient(#3b7b1e, #3f8320 30%, #37721c 50%, #316619 50%, #4b9b26);
+  background-image: linear-gradient(#3b7b1e, #3f8320 30%, #37721c 50%, #316619 50%, #4b9b26);
+  border-color: #1e3d0f;
+  text-shadow: #081900 0px -1px -1px;
+  -webkit-box-shadow: #295615 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #295615 0 0.08em 0.2em 1px inset;
+  box-shadow: #295615 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.green:active, .green:active:visited {
+  color: white;
+}
+
+/* line 65, ../sass/buttons.scss */
+.red {
+  background-color: #b70300;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e08180), color-stop(10%, #ce3836), color-stop(50%, #872321), color-stop(50%, #7b201e), color-stop(100%, #a42a28));
+  background-image: -webkit-linear-gradient(#e08180, #ce3836 10%, #872321 50%, #7b201e 50%, #a42a28);
+  background-image: -moz-linear-gradient(#e08180, #ce3836 10%, #872321 50%, #7b201e 50%, #a42a28);
+  background-image: -o-linear-gradient(#e08180, #ce3836 10%, #872321 50%, #7b201e 50%, #a42a28);
+  background-image: linear-gradient(#e08180, #ce3836 10%, #872321 50%, #7b201e 50%, #a42a28);
+  border-color: #561615;
+  text-shadow: #380100 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.red, .red:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.red:hover, .red:focus {
+  background-color: #a80300;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd7573), color-stop(10%, #c43330), color-stop(50%, #7b201e), color-stop(50%, #6e1c1b), color-stop(100%, #972725));
+  background-image: -webkit-linear-gradient(#dd7573, #c43330 10%, #7b201e 50%, #6e1c1b 50%, #972725);
+  background-image: -moz-linear-gradient(#dd7573, #c43330 10%, #7b201e 50%, #6e1c1b 50%, #972725);
+  background-image: -o-linear-gradient(#dd7573, #c43330 10%, #7b201e 50%, #6e1c1b 50%, #972725);
+  background-image: linear-gradient(#dd7573, #c43330 10%, #7b201e 50%, #6e1c1b 50%, #972725);
+  border-color: #491312;
+  text-shadow: #280100 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.red:hover, .red:hover:visited, .red:focus, .red:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.red:active {
+  background-color: #990300;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7b201e), color-stop(30%, #832220), color-stop(50%, #721d1c), color-stop(50%, #661a19), color-stop(100%, #9b2826));
+  background-image: -webkit-linear-gradient(#7b201e, #832220 30%, #721d1c 50%, #661a19 50%, #9b2826);
+  background-image: -moz-linear-gradient(#7b201e, #832220 30%, #721d1c 50%, #661a19 50%, #9b2826);
+  background-image: -o-linear-gradient(#7b201e, #832220 30%, #721d1c 50%, #661a19 50%, #9b2826);
+  background-image: linear-gradient(#7b201e, #832220 30%, #721d1c 50%, #661a19 50%, #9b2826);
+  border-color: #3d100f;
+  text-shadow: #190000 0px -1px -1px;
+  -webkit-box-shadow: #561615 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #561615 0 0.08em 0.2em 1px inset;
+  box-shadow: #561615 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.red:active, .red:active:visited {
+  color: white;
+}
+
+/* line 69, ../sass/buttons.scss */
+.yellow {
+  background-color: #e5e600;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebeba2), color-stop(10%, #dbdb57), color-stop(50%, #b1b125), color-stop(50%, #a4a423), color-stop(100%, #cece2c));
+  background-image: -webkit-linear-gradient(#ebeba2, #dbdb57 10%, #b1b125 50%, #a4a423 50%, #cece2c);
+  background-image: -moz-linear-gradient(#ebeba2, #dbdb57 10%, #b1b125 50%, #a4a423 50%, #cece2c);
+  background-image: -o-linear-gradient(#ebeba2, #dbdb57 10%, #b1b125 50%, #a4a423 50%, #cece2c);
+  background-image: linear-gradient(#ebeba2, #dbdb57 10%, #b1b125 50%, #a4a423 50%, #cece2c);
+  border-color: #7e7e1b;
+  text-shadow: #666600 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.45) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.45) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.45) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.yellow, .yellow:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.yellow:hover, .yellow:focus {
+  background-color: #d6d600;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e996), color-stop(10%, #d9d94a), color-stop(50%, #a4a423), color-stop(50%, #979720), color-stop(100%, #c2c229));
+  background-image: -webkit-linear-gradient(#e9e996, #d9d94a 10%, #a4a423 50%, #979720 50%, #c2c229);
+  background-image: -moz-linear-gradient(#e9e996, #d9d94a 10%, #a4a423 50%, #979720 50%, #c2c229);
+  background-image: -o-linear-gradient(#e9e996, #d9d94a 10%, #a4a423 50%, #979720 50%, #c2c229);
+  background-image: linear-gradient(#e9e996, #d9d94a 10%, #a4a423 50%, #979720 50%, #c2c229);
+  border-color: #727218;
+  text-shadow: #575700 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.yellow:hover, .yellow:hover:visited, .yellow:focus, .yellow:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.yellow:active {
+  background-color: #c7c700;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a4a423), color-stop(30%, #adad25), color-stop(50%, #9c9c21), color-stop(50%, #8f8f1e), color-stop(100%, #c6c62a));
+  background-image: -webkit-linear-gradient(#a4a423, #adad25 30%, #9c9c21 50%, #8f8f1e 50%, #c6c62a);
+  background-image: -moz-linear-gradient(#a4a423, #adad25 30%, #9c9c21 50%, #8f8f1e 50%, #c6c62a);
+  background-image: -o-linear-gradient(#a4a423, #adad25 30%, #9c9c21 50%, #8f8f1e 50%, #c6c62a);
+  background-image: linear-gradient(#a4a423, #adad25 30%, #9c9c21 50%, #8f8f1e 50%, #c6c62a);
+  border-color: #656515;
+  text-shadow: #474700 0px -1px -1px;
+  -webkit-box-shadow: #7e7e1b 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #7e7e1b 0 0.08em 0.2em 1px inset;
+  box-shadow: #7e7e1b 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.yellow:active, .yellow:active:visited {
+  color: white;
+}
+
+/* line 73, ../sass/buttons.scss */
+.custom {
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  font-size: 30px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  padding: 2px 12px;
+  border-width: 2px;
+}
+
+/* line 78, ../sass/buttons.scss */
+.heart {
+  background-color: #c10300;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #e82926), color-stop(100%, #7c0f0d));
+  background-image: -webkit-radial-gradient(50% 10%, #e82926, #7c0f0d 30px);
+  background-image: -moz-radial-gradient(50% 10%, #e82926, #7c0f0d 30px);
+  background-image: -o-radial-gradient(50% 10%, #e82926, #7c0f0d 30px);
+  background-image: radial-gradient(50% 10%, #e82926, #7c0f0d 30px);
+  border-color: #6a0d0b;
+  text-shadow: #420100 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.37922) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.37922) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.37922) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.heart, .heart:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.heart:hover, .heart:focus {
+  background-color: #b20300;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #e61c19), color-stop(100%, #6e0d0c));
+  background-image: -webkit-radial-gradient(50% 10%, #e61c19, #6e0d0c 30px);
+  background-image: -moz-radial-gradient(50% 10%, #e61c19, #6e0d0c 30px);
+  background-image: -o-radial-gradient(50% 10%, #e61c19, #6e0d0c 30px);
+  background-image: radial-gradient(50% 10%, #e61c19, #6e0d0c 30px);
+  border-color: #5c0b0a;
+  text-shadow: #330100 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.heart:hover, .heart:hover:visited, .heart:focus, .heart:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.heart:active {
+  background-color: #a30300;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #a61412), color-stop(100%, #d41a17));
+  background-image: -webkit-radial-gradient(50% 10%, #a61412, #d41a17 30px);
+  background-image: -moz-radial-gradient(50% 10%, #a61412, #d41a17 30px);
+  background-image: -o-radial-gradient(50% 10%, #a61412, #d41a17 30px);
+  background-image: radial-gradient(50% 10%, #a61412, #d41a17 30px);
+  border-color: #4e0a08;
+  text-shadow: #230100 0px -1px -1px;
+  -webkit-box-shadow: #6a0d0b 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #6a0d0b 0 0.08em 0.2em 1px inset;
+  box-shadow: #6a0d0b 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.heart:active, .heart:active:visited {
+  color: white;
+}
+
+/* line 82, ../sass/buttons.scss */
+.arrow {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  font-size: 30px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: white;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #ffffff), color-stop(100%, #c1c1c1));
+  background-image: -webkit-radial-gradient(50% 10%, #ffffff, #c1c1c1 30px);
+  background-image: -moz-radial-gradient(50% 10%, #ffffff, #c1c1c1 30px);
+  background-image: -o-radial-gradient(50% 10%, #ffffff, #c1c1c1 30px);
+  background-image: radial-gradient(50% 10%, #ffffff, #c1c1c1 30px);
+  border-color: #b7b7b7;
+  text-shadow: white 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.86667) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.86667) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.86667) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  padding: 2px 6px;
+  border-width: 2px;
+}
+/* line 152, ../sass/partials/modules/_fancy-buttons.scss */
+.arrow, .arrow:visited {
+  color: #222222;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.arrow:hover, .arrow:focus {
+  background-color: white;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #fcfcfc), color-stop(100%, #b9b9b9));
+  background-image: -webkit-radial-gradient(50% 10%, #fcfcfc, #b9b9b9 30px);
+  background-image: -moz-radial-gradient(50% 10%, #fcfcfc, #b9b9b9 30px);
+  background-image: -o-radial-gradient(50% 10%, #fcfcfc, #b9b9b9 30px);
+  background-image: radial-gradient(50% 10%, #fcfcfc, #b9b9b9 30px);
+  border-color: #afafaf;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 152, ../sass/partials/modules/_fancy-buttons.scss */
+.arrow:hover, .arrow:hover:visited, .arrow:focus, .arrow:focus:visited {
+  color: #222222;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.arrow:active {
+  background-color: white;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #d8d8d8), color-stop(100%, #f1f1f1));
+  background-image: -webkit-radial-gradient(50% 10%, #d8d8d8, #f1f1f1 30px);
+  background-image: -moz-radial-gradient(50% 10%, #d8d8d8, #f1f1f1 30px);
+  background-image: -o-radial-gradient(50% 10%, #d8d8d8, #f1f1f1 30px);
+  background-image: radial-gradient(50% 10%, #d8d8d8, #f1f1f1 30px);
+  border-color: #a7a7a7;
+  text-shadow: white 0px -1px -1px;
+  -webkit-box-shadow: #b7b7b7 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #b7b7b7 0 0.08em 0.2em 1px inset;
+  box-shadow: #b7b7b7 0 0.08em 0.2em 1px inset;
+}
+/* line 152, ../sass/partials/modules/_fancy-buttons.scss */
+.arrow:active, .arrow:active:visited {
+  color: #222222;
+}
+
+/* line 88, ../sass/buttons.scss */
+.spade {
+  background-color: #0058b7;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #367fce), color-stop(100%, #193e66));
+  background-image: -webkit-radial-gradient(50% 10%, #367fce, #193e66 30px);
+  background-image: -moz-radial-gradient(50% 10%, #367fce, #193e66 30px);
+  background-image: -o-radial-gradient(50% 10%, #367fce, #193e66 30px);
+  background-image: radial-gradient(50% 10%, #367fce, #193e66 30px);
+  border-color: #153456;
+  text-shadow: #001b38 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  padding: 2px 8px;
+  border-width: 2px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.spade, .spade:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.spade:hover, .spade:focus {
+  background-color: #0051a8;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #3078c4), color-stop(100%, #16375a));
+  background-image: -webkit-radial-gradient(50% 10%, #3078c4, #16375a 30px);
+  background-image: -moz-radial-gradient(50% 10%, #3078c4, #16375a 30px);
+  background-image: -o-radial-gradient(50% 10%, #3078c4, #16375a 30px);
+  background-image: radial-gradient(50% 10%, #3078c4, #16375a 30px);
+  border-color: #122d49;
+  text-shadow: #001428 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.spade:hover, .spade:hover:visited, .spade:focus, .spade:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.spade:active {
+  background-color: #004a99;
+  background-image: -webkit-gradient(radial, 50% 10%, 0, 50% 10%, 30, color-stop(0%, #22558b), color-stop(100%, #2c6eb4));
+  background-image: -webkit-radial-gradient(50% 10%, #22558b, #2c6eb4 30px);
+  background-image: -moz-radial-gradient(50% 10%, #22558b, #2c6eb4 30px);
+  background-image: -o-radial-gradient(50% 10%, #22558b, #2c6eb4 30px);
+  background-image: radial-gradient(50% 10%, #22558b, #2c6eb4 30px);
+  border-color: #0f253d;
+  text-shadow: #000c19 0px -1px -1px;
+  -webkit-box-shadow: #153456 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #153456 0 0.08em 0.2em 1px inset;
+  box-shadow: #153456 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.spade:active, .spade:active:visited {
+  color: white;
+}
+
+/* line 93, ../sass/buttons.scss */
+.blue {
+  background-color: #0058b7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80aee0), color-stop(10%, #367fce), color-stop(50%, #215287), color-stop(50%, #1e4b7b), color-stop(100%, #2864a4));
+  background-image: -webkit-linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  background-image: -moz-linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  background-image: -o-linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  background-image: linear-gradient(#80aee0, #367fce 10%, #215287 50%, #1e4b7b 50%, #2864a4);
+  border-color: #153456;
+  text-shadow: #001b38 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.35922) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  font-size: 32px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 3px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.blue, .blue:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+.blue:hover, .blue:focus {
+  background-color: #0051a8;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #73a6dd), color-stop(10%, #3078c4), color-stop(50%, #1e4b7b), color-stop(50%, #1b436e), color-stop(100%, #255c97));
+  background-image: -webkit-linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  background-image: -moz-linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  background-image: -o-linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  background-image: linear-gradient(#73a6dd, #3078c4 10%, #1e4b7b 50%, #1b436e 50%, #255c97);
+  border-color: #122d49;
+  text-shadow: #001428 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.blue:hover, .blue:hover:visited, .blue:focus, .blue:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+.blue:active {
+  background-color: #004a99;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1e4b7b), color-stop(30%, #205083), color-stop(50%, #1c4672), color-stop(50%, #193e66), color-stop(100%, #265f9b));
+  background-image: -webkit-linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  background-image: -moz-linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  background-image: -o-linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  background-image: linear-gradient(#1e4b7b, #205083 30%, #1c4672 50%, #193e66 50%, #265f9b);
+  border-color: #0f253d;
+  text-shadow: #000c19 0px -1px -1px;
+  -webkit-box-shadow: #153456 0 0.08em 0.2em 1px inset;
+  -moz-box-shadow: #153456 0 0.08em 0.2em 1px inset;
+  box-shadow: #153456 0 0.08em 0.2em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+.blue:active, .blue:active:visited {
+  color: white;
+}

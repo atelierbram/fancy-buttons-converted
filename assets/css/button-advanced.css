@@ -1,0 +1,235 @@
+/* line 17, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 116, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/design/default/_page-styles.scss */
+html {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #145599), color-stop(100%, #092543));
+  background-image: -webkit-linear-gradient(#145599, #092543);
+  background-image: -moz-linear-gradient(#145599, #092543);
+  background-image: -o-linear-gradient(#145599, #092543);
+  background-image: linear-gradient(#145599, #092543);
+  height: 100%;
+  background-color: #0e3b69;
+}
+
+/* line 6, ../sass/design/default/_page-styles.scss */
+body {
+  background: none;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+/* line 8, ../sass/design/default/_page-styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -1px;
+  margin: .4em 0 .8em;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 4px;
+}
+
+/* line 10, ../sass/design/default/_page-styles.scss */
+h1 {
+  font-size: 50px;
+}
+
+/* line 11, ../sass/design/default/_page-styles.scss */
+h2 {
+  font-size: 30px;
+}
+
+/* line 13, ../sass/design/default/_page-styles.scss */
+div {
+  background: #fff;
+  width: 310px;
+  margin: 0 auto;
+  border: 10px solid #cccccc;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 1px 1px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 1px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 1px 1px inset;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  padding: 40px 0;
+}
+
+/* line 20, ../sass/design/default/_page-styles.scss */
+div.dark {
+  background: #151515;
+  width: 310px;
+  margin: 0 auto;
+  border: 10px solid black;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 0 1px 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 0 1px 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 0 1px 1px inset;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  padding: 40px 0;
+}
+
+/* incase an inverted custom gradient isn't specified */
+/* line 226, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-reset-base-class, button {
+  font-family: "Lucida Grande", Lucida, Arial, sans-serif;
+  background: url('../img/../../assets/img/button_bg.png?1373872206') repeat-x bottom left;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+}
+/* line 210, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-reset-base-class::-moz-focus-inner, button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+/* line 214, ../sass/partials/modules/_fancy-buttons.scss */
+.fancy-button-reset-base-class:focus, button:focus {
+  outline: none;
+}
+
+/* line 4, ../sass/button-advanced.scss */
+button {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  font-size: 26px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 4px;
+  background-color: #004c9b;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5aa0e9), color-stop(10%, #1b72cd), color-stop(50%, #10447b), color-stop(50%, #0e3d6e), color-stop(100%, #14569b));
+  background-image: -webkit-linear-gradient(#5aa0e9, #1b72cd 10%, #10447b 50%, #0e3d6e 50%, #14569b);
+  background-image: -moz-linear-gradient(#5aa0e9, #1b72cd 10%, #10447b 50%, #0e3d6e 50%, #14569b);
+  background-image: -o-linear-gradient(#5aa0e9, #1b72cd 10%, #10447b 50%, #0e3d6e 50%, #14569b);
+  background-image: linear-gradient(#5aa0e9, #1b72cd 10%, #10447b 50%, #0e3d6e 50%, #14569b);
+  border-color: #092645;
+  text-shadow: #000d1b 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.30392) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.30392) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.30392) 0 0 0.1em 1px inset;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+button, button:visited {
+  color: white;
+}
+/* line 32, ../sass/partials/modules/_fancy-buttons.scss */
+button:hover, button:focus {
+  background-color: #4c9b00;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a0e95a), color-stop(10%, #72cd1b), color-stop(50%, #447b10), color-stop(50%, #3d6e0e), color-stop(100%, #569b14));
+  background-image: -webkit-linear-gradient(#a0e95a, #72cd1b 10%, #447b10 50%, #3d6e0e 50%, #569b14);
+  background-image: -moz-linear-gradient(#a0e95a, #72cd1b 10%, #447b10 50%, #3d6e0e 50%, #569b14);
+  background-image: -o-linear-gradient(#a0e95a, #72cd1b 10%, #447b10 50%, #3d6e0e 50%, #569b14);
+  background-image: linear-gradient(#a0e95a, #72cd1b 10%, #447b10 50%, #3d6e0e 50%, #569b14);
+  border-color: #264509;
+  text-shadow: #0d1b00 0px 1px 1px;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+button:hover, button:hover:visited, button:focus, button:focus:visited {
+  color: white;
+}
+/* line 40, ../sass/partials/modules/_fancy-buttons.scss */
+button:active {
+  background-color: #3d7c00;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3d6e0e), color-stop(30%, #427710), color-stop(50%, #38650d), color-stop(50%, #30570b), color-stop(100%, #519213));
+  background-image: -webkit-linear-gradient(#3d6e0e, #427710 30%, #38650d 50%, #30570b 50%, #519213);
+  background-image: -moz-linear-gradient(#3d6e0e, #427710 30%, #38650d 50%, #30570b 50%, #519213);
+  background-image: -o-linear-gradient(#3d6e0e, #427710 30%, #38650d 50%, #30570b 50%, #519213);
+  background-image: linear-gradient(#3d6e0e, #427710 30%, #38650d 50%, #30570b 50%, #519213);
+  border-color: #172a06;
+  text-shadow: black 0px -1px -1px;
+  -webkit-box-shadow: #264509 0 0.08em 0.1em 1px inset;
+  -moz-box-shadow: #264509 0 0.08em 0.1em 1px inset;
+  box-shadow: #264509 0 0.08em 0.1em 1px inset;
+}
+/* line 146, ../sass/partials/modules/_fancy-buttons.scss */
+button:active, button:active:visited {
+  color: white;
+}
